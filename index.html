@@ -9,20 +9,30 @@
         <link href="./assets/css/normalize.css" rel="stylesheet" />
         <link href="./assets/css/reset.css" rel="stylesheet" />
         <link href="./assets/css/cabecera.css" rel="stylesheet" />
-        <link href="./assets/css/style.css" rel="stylesheet" />
-
+        <link href="./assets/css/menu/menu__iten.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu__lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu__link.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <img src="/assets/img/logo.jpg" alt="Logo">
-            <nav>
-                <ul>
-                    <li><a id="activo" href="#">Inicio</a></li>
-                    <li><a href="#">Recetas</a></li>
-                    <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">Contato</a></li>
+        <header class="cabecera">
+            <img class="logo" src="./assets/img/logo.jpg" alt="Fruto y Fruta">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__iten"><a class="menu__link activo" href="#">Ínicio</a></li>
+                    <li class="menu__iten"><a class="menu__link" href="#">Recetas</a></li>
+                    <li class="menu__iten"><a class="menu__link" href="#">Quienes somos</a></li>
+                    <li class="menu__iten"><a class="menu__link" href="#">Contacto</a></li>
                 </ul>
-            </nav>    
+            </nav>
         </header>
+        <section class="banner">
+            <img class="banner__imagen" src="" alt="">
+            <H2 class="banner__titulo">Reaproveche mejor los alimentos</H2>
+        </section>   
+        <section class="sobre">
+            <h2 class="sobre__titulo">Recetas para economizar y ganar salud</h2>
+            <p class="sobre__descripcion">Nuestras recetas te ayudana a aprovechar mejor los alimentos, economizar ganar tiempo y practicidad</p>
+        </section>
+
     </body>
 </html>
